@@ -1,0 +1,10 @@
+Maximum number of iterations has been exceeded.
+OPTIMIZATION RESULTS: 
+Vg: 1.9067 
+Tlen: 0.2754 
+Twid: 9.4066 
+Ladderlen: 1.4231 
+Ladderwid: 5.7114 
+Isourcelen: 0.2342 
+Isourcewid: 1.3303
+Error at final point: 0.67911272
