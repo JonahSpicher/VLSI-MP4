@@ -101,11 +101,11 @@ N 1540 -1030 1550 -1030 { lab=GND}
 N 1460 -1030 1480 -1030 { lab=Iout}
 N 1550 -1030 1550 -970 { lab=GND}
 N 1550 -930 1550 -890 { lab=GND}
-N 1400 -1170 1400 -1160 { lab=#net1}
-N 1400 -1170 1430 -1170 { lab=#net1}
-N 1430 -1170 1440 -1170 { lab=#net1}
-N 1440 -1170 1440 -1130 { lab=#net1}
-N 1430 -1130 1440 -1130 { lab=#net1}
+N 1400 -1170 1400 -1160 { lab=GND}
+N 1400 -1170 1430 -1170 { lab=GND}
+N 1430 -1170 1440 -1170 { lab=GND}
+N 1440 -1170 1440 -1130 { lab=GND}
+N 1430 -1130 1440 -1130 { lab=GND}
 N 1340 -1130 1370 -1130 { lab=branch6}
 N 560 -1030 580 -1030 { lab=branch0}
 N 530 -970 530 -960 { lab=GND}
@@ -132,11 +132,11 @@ N 870 -1190 870 -1160 { lab=VDD}
 N 1010 -1190 1010 -1160 { lab=VDD}
 N 1150 -1190 1150 -1160 { lab=VDD}
 N 1290 -1190 1290 -1160 { lab=VDD}
-N 360 -900 490 -900 { lab=VN}
-N 360 -1250 480 -1250 { lab=Iout}
-N 490 -900 1550 -890 {}
-N 1440 -1250 1440 -1170 {}
-N 480 -1250 1440 -1250 {}
+N 360 -900 490 -900 { lab=GND}
+N 360 -1250 480 -1250 { lab=VDD}
+N 490 -900 1550 -890 { lab=GND}
+N 1440 -1130 1550 -1130 { lab=GND}
+N 1550 -1130 1550 -1070 { lab=GND}
 C {madvlsi/nmos3.sym} 510 -1130 1 0 {name=M19
 L=1.4
 W=5.7
@@ -432,7 +432,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {madvlsi/nmos3.sym} 1400 -1130 1 0 {name=M24
+C {madvlsi/nmos3.sym} 1400 -1130 1 0 {name=Md4
 L=1.4
 W=5.7
 body=GND
@@ -477,7 +477,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {madvlsi/nmos3.sym} 1510 -930 1 0 {name=M22
+C {madvlsi/nmos3.sym} 1510 -930 1 0 {name=Md6
 L=1.4
 W=5.7
 body=GND
@@ -492,7 +492,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {madvlsi/nmos3.sym} 1510 -1030 1 0 {name=M23
+C {madvlsi/nmos3.sym} 1510 -1030 1 0 {name=Md5
 L=1.4
 W=5.7
 body=GND
@@ -507,7 +507,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {madvlsi/nmos3.sym} 530 -930 1 0 {name=M25
+C {madvlsi/nmos3.sym} 530 -930 1 0 {name=Md3
 L=1.4
 W=5.7
 body=GND
@@ -522,7 +522,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {madvlsi/nmos3.sym} 530 -1030 1 0 {name=M26
+C {madvlsi/nmos3.sym} 530 -1030 1 0 {name=Md2
 L=1.4
 W=5.7
 body=GND
@@ -538,7 +538,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {madvlsi/gnd.sym} 490 -900 0 0 {name=l3 lab=GND}
-C {madvlsi/nmos3.sym} 430 -1130 1 0 {name=M27
+C {madvlsi/nmos3.sym} 430 -1130 1 0 {name=Md1
 L=1.4
 W=5.7
 body=GND
@@ -553,5 +553,3 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {devices/iopin.sym} 360 -1250 2 0 {name=p9 lab=VP}
-C {devices/iopin.sym} 360 -900 2 0 {name=p10 lab=VN}

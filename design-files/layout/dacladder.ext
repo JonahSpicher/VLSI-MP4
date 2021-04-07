@@ -1,0 +1,61 @@
+timestamp 1617750207
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+parameters sky130_fd_pr__nfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+node "Iout" 3532 2272.07 4130 -3480 ndif 0 0 0 0 0 0 0 0 228000 4960 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 209200 6220 0 0 0 0 0 0 0 0 0 0 0 0
+node "branch6" 6959 3706.43 3590 -3480 ndif 0 0 0 0 0 0 0 0 456000 9920 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 529200 11420 0 0 0 0 0 0 0 0 0 0 0 0
+node "branch5" 8803 4236.03 3050 -3480 ndif 0 0 0 0 0 0 0 0 570000 12400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 627600 14180 0 0 0 0 0 0 0 0 0 0 0 0
+node "branch4" 8803 4236.03 2510 -3480 ndif 0 0 0 0 0 0 0 0 570000 12400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 627600 14180 0 0 0 0 0 0 0 0 0 0 0 0
+node "branch3" 8803 4236.03 1970 -3480 ndif 0 0 0 0 0 0 0 0 570000 12400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 627600 14180 0 0 0 0 0 0 0 0 0 0 0 0
+node "branch2" 8803 4236.03 1430 -3480 ndif 0 0 0 0 0 0 0 0 570000 12400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 627600 14180 0 0 0 0 0 0 0 0 0 0 0 0
+node "branch1" 8803 4117.3 890 -3480 ndif 0 0 0 0 0 0 0 0 570000 12400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 627600 14180 0 0 0 0 0 0 0 0 0 0 0 0
+node "branch0" 5275 2521.15 510 -3480 ndif 0 0 0 0 0 0 0 0 342000 7440 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 289600 8080 0 0 0 0 0 0 0 0 0 0 0 0
+node "VP" 12713 26211.4 230 -870 ndif 0 0 0 0 0 0 0 0 798000 17360 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7645800 66460 0 0 675200 18800 754700 10180 0 0 0 0 0 0 0 0 0 0
+substrate "VN" 0 0 -150 -870 ndif 0 0 0 0 0 0 0 0 661200 14840 456000 9920 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2065000 17740 0 0 1011200 17160 15183500 26520 0 0 0 0 0 0 0 0 0 0
+cap "VP" "branch0" 468.818
+cap "branch5" "branch6" 605.152
+cap "VP" "branch5" 2574.29
+cap "branch4" "branch5" 605.152
+cap "VP" "branch3" 2585.53
+cap "branch3" "branch4" 605.152
+cap "VP" "branch1" 2550.98
+cap "branch2" "branch3" 605.152
+cap "VP" "branch6" 2088.78
+cap "branch1" "branch2" 605.152
+cap "VP" "branch4" 2585.53
+cap "branch0" "branch1" 601.152
+cap "VP" "branch2" 2585.53
+cap "branch6" "Iout" 261.791
+cap "VP" "Iout" 29.3
+device msubckt sky130_fd_pr__nfet_01v8 4230 -3480 4231 -3479 l=280 w=1140 "VN" "VN" 560 0 "Iout" 1140 0 "VN" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 3850 -3480 3851 -3479 l=280 w=1140 "VN" "VP" 560 0 "branch6" 1140 0 "Iout" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 3310 -3480 3311 -3479 l=280 w=1140 "VN" "VP" 560 0 "branch5" 1140 0 "branch6" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 2770 -3480 2771 -3479 l=280 w=1140 "VN" "VP" 560 0 "branch4" 1140 0 "branch5" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 2230 -3480 2231 -3479 l=280 w=1140 "VN" "VP" 560 0 "branch3" 1140 0 "branch4" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 1690 -3480 1691 -3479 l=280 w=1140 "VN" "VP" 560 0 "branch2" 1140 0 "branch3" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 1150 -3480 1151 -3479 l=280 w=1140 "VN" "VP" 560 0 "branch1" 1140 0 "branch2" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 610 -3480 611 -3479 l=280 w=1140 "VN" "VP" 560 0 "branch0" 1140 0 "branch1" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 230 -3480 231 -3479 l=280 w=1140 "VN" "VN" 560 0 "VN" 1140 0 "branch0" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 4330 -2210 4331 -2209 l=280 w=1140 "VN" "VN" 560 0 "Iout" 1140 0 "VN" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 3950 -2210 3951 -2209 l=280 w=1140 "VN" "VP" 560 0 "branch6" 1140 0 "Iout" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 3410 -2210 3411 -2209 l=280 w=1140 "VN" "VP" 560 0 "branch5" 1140 0 "VP" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 2870 -2210 2871 -2209 l=280 w=1140 "VN" "VP" 560 0 "branch4" 1140 0 "VP" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 2330 -2210 2331 -2209 l=280 w=1140 "VN" "VP" 560 0 "branch3" 1140 0 "VP" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 1790 -2210 1791 -2209 l=280 w=1140 "VN" "VP" 560 0 "branch2" 1140 0 "VP" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 1250 -2210 1251 -2209 l=280 w=1140 "VN" "VP" 560 0 "branch1" 1140 0 "VP" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 710 -2210 711 -2209 l=280 w=1140 "VN" "VP" 560 0 "branch0" 1140 0 "VP" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 330 -2210 331 -2209 l=280 w=1140 "VN" "VN" 560 0 "VN" 1140 0 "branch0" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 3790 -870 3791 -869 l=280 w=1140 "VN" "VN" 560 0 "branch6" 1140 0 "VN" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 3410 -870 3411 -869 l=280 w=1140 "VN" "VP" 560 0 "branch5" 1140 0 "branch6" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 2870 -870 2871 -869 l=280 w=1140 "VN" "VP" 560 0 "branch4" 1140 0 "branch5" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 2330 -870 2331 -869 l=280 w=1140 "VN" "VP" 560 0 "branch3" 1140 0 "branch4" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 1790 -870 1791 -869 l=280 w=1140 "VN" "VP" 560 0 "branch2" 1140 0 "branch3" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 1250 -870 1251 -869 l=280 w=1140 "VN" "VP" 560 0 "branch1" 1140 0 "branch2" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 710 -870 711 -869 l=280 w=1140 "VN" "VP" 560 0 "branch0" 1140 0 "branch1" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 330 -870 331 -869 l=280 w=1140 "VN" "VP" 560 0 "VP" 1140 0 "branch0" 1140 0
+device msubckt sky130_fd_pr__nfet_01v8 -50 -870 -49 -869 l=280 w=1140 "VN" "VN" 560 0 "VN" 1140 0 "VP" 1140 0
+subcap "branch1" -3801.49
+subcap "branch0" -2441.19

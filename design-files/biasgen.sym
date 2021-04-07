@@ -1,0 +1,29 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=X1"}
+V {}
+S {}
+E {}
+L 4 650 -210 650 -130 {}
+L 4 650 -130 780 -130 {}
+L 4 780 -210 780 -130 {}
+L 4 650 -210 780 -210 {}
+L 4 640 -140 650 -140 {}
+L 4 780 -190 790 -190 {}
+L 4 780 -160 790 -160 {}
+L 4 670 -220 670 -210 {}
+L 4 670 -130 670 -120 {}
+B 5 637.5 -142.5 642.5 -137.5 {name=Rbias
+dir=inout}
+B 5 787.5 -192.5 792.5 -187.5 {name=Vbn
+dir=inout}
+B 5 787.5 -162.5 792.5 -157.5 {name=Vc
+dir=inout}
+B 5 667.5 -222.5 672.5 -217.5 {name=VP
+dir=inout}
+B 5 667.5 -122.5 672.5 -117.5 {name=VN
+dir=inout}
+T {@name} 670 -200 0 0 0.4 0.4 {}
+T {NEEDS POWER} 640 -160 0 0 0.4 0.4 {}

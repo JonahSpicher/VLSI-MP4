@@ -1,0 +1,363 @@
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+
+Subcircuit summary:
+Circuit 1: branchl.spice                   |Circuit 2: branchlogic_xschem.spice        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (35)               |sky130_fd_pr__nfet_01v8 (35)               
+sky130_fd_pr__pfet_01v8 (14)               |sky130_fd_pr__pfet_01v8 (14)               
+Number of devices: 49                      |Number of devices: 49                      
+Number of nets: 39                         |Number of nets: 39                         
+---------------------------------------------------------------------------------------
+Resolving automorphisms by property value.
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v89 pin a_8660_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M7 pin branch0 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v89 pin branch6 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M7 pin net3 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v89 pin a_8660_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M14 pin branch1 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v89 pin branch6 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M14 pin net6 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v89 pin a_8660_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M21 pin branch2 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v89 pin branch6 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M21 pin net9 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v89 pin a_8660_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M28 pin branch3 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v89 pin branch6 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M28 pin net12 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v89 pin a_8660_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M35 pin branch4 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v89 pin branch6 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M35 pin net15 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v89 pin a_8660_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M42 pin branch5 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v89 pin branch6 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M42 pin net18 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v89 pin a_8660_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M49 pin branch6 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v89 pin branch6 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M49 pin net21 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v814 pin a_740_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M7 pin branch0 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v814 pin branch0 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M7 pin net3 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v814 pin a_740_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M14 pin branch1 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v814 pin branch0 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M14 pin net6 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v814 pin a_740_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M21 pin branch2 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v814 pin branch0 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M21 pin net9 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v814 pin a_740_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M28 pin branch3 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v814 pin branch0 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M28 pin net12 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v814 pin a_740_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M35 pin branch4 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v814 pin branch0 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M35 pin net15 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v814 pin a_740_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M42 pin branch5 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v814 pin branch0 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M42 pin net18 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v814 pin a_740_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M49 pin branch6 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v814 pin branch0 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M49 pin net21 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v819 pin a_7340_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M7 pin branch0 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v819 pin branch5 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M7 pin net3 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v819 pin a_7340_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M14 pin branch1 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v819 pin branch5 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M14 pin net6 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v819 pin a_7340_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M21 pin branch2 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v819 pin branch5 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M21 pin net9 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v819 pin a_7340_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M28 pin branch3 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v819 pin branch5 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M28 pin net12 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v819 pin a_7340_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M35 pin branch4 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v819 pin branch5 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M35 pin net15 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v819 pin a_7340_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M42 pin branch5 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v819 pin branch5 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M42 pin net18 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v819 pin a_7340_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M49 pin branch6 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v819 pin branch5 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M49 pin net21 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v831 pin a_3380_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M7 pin branch0 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v831 pin branch2 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M7 pin net3 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v831 pin a_3380_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M14 pin branch1 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v831 pin branch2 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M14 pin net6 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v831 pin a_3380_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M21 pin branch2 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v831 pin branch2 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M21 pin net9 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v831 pin a_3380_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M28 pin branch3 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v831 pin branch2 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M28 pin net12 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v831 pin a_3380_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M35 pin branch4 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v831 pin branch2 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M35 pin net15 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v831 pin a_3380_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M42 pin branch5 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v831 pin branch2 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M42 pin net18 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v831 pin a_3380_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M49 pin branch6 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v831 pin branch2 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M49 pin net21 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v839 pin a_6020_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M7 pin branch0 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v839 pin branch4 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M7 pin net3 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v839 pin a_6020_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M14 pin branch1 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v839 pin branch4 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M14 pin net6 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v839 pin a_6020_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M21 pin branch2 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v839 pin branch4 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M21 pin net9 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v839 pin a_6020_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M28 pin branch3 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v839 pin branch4 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M28 pin net12 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v839 pin a_6020_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M35 pin branch4 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v839 pin branch4 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M35 pin net15 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v839 pin a_6020_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M42 pin branch5 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v839 pin branch4 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M42 pin net18 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v839 pin a_6020_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M49 pin branch6 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v839 pin branch4 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M49 pin net21 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v843 pin a_4700_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M7 pin branch0 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v843 pin branch3 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M7 pin net3 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v843 pin a_4700_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M14 pin branch1 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v843 pin branch3 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M14 pin net6 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v843 pin a_4700_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M21 pin branch2 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v843 pin branch3 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M21 pin net9 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v843 pin a_4700_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M28 pin branch3 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v843 pin branch3 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M28 pin net12 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v843 pin a_4700_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M35 pin branch4 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v843 pin branch3 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M35 pin net15 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v843 pin a_4700_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M42 pin branch5 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v843 pin branch3 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M42 pin net18 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v843 pin a_4700_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M49 pin branch6 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v843 pin branch3 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M49 pin net21 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v847 pin a_2060_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M7 pin branch0 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v847 pin branch1 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M7 pin net3 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v847 pin a_2060_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M14 pin branch1 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v847 pin branch1 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M14 pin net6 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v847 pin a_2060_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M21 pin branch2 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v847 pin branch1 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M21 pin net9 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v847 pin a_2060_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M28 pin branch3 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v847 pin branch1 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M28 pin net12 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v847 pin a_2060_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M35 pin branch4 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v847 pin branch1 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M35 pin net15 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v847 pin a_2060_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M42 pin branch5 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v847 pin branch1 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M42 pin net18 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v847 pin a_2060_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M49 pin branch6 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v847 pin branch1 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M49 pin net21 connections are tied together (0)
+Resolving automorphisms by pin name.
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v814 pin a_740_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M7 pin branch0 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v814 pin branch0 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M7 pin net3 connections are tied together (0)
+Netlists match uniquely.
+Circuits match correctly.
+There were property errors.
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v814 pin a_740_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M7 pin branch0 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v814 pin branch0 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M7 pin net3 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v847 pin a_2060_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M14 pin branch1 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v847 pin branch1 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M14 pin net6 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v831 pin a_3380_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M21 pin branch2 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v831 pin branch2 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M21 pin net9 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v843 pin a_4700_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M28 pin branch3 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v843 pin branch3 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M28 pin net12 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v839 pin a_6020_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M35 pin branch4 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v839 pin branch4 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M35 pin net15 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v819 pin a_7340_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M42 pin branch5 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v819 pin branch5 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M42 pin net18 connections are tied together (0)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v89 pin a_8660_720# connections are tied together (0)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M49 pin branch6 connections are no connects (1)
+  Parallelized instances disagree on pin connections.
+    Circuit1 instance sky130_fd_pr__nfet_01v89 pin branch6 connections are no connects (1)
+    Circuit2 instance sky130_fd_pr__nfet_01v8M49 pin net21 connections are tied together (0)
+Cells have no pins;  pin matching not needed.
+Device classes branchl.spice and branchlogic_xschem.spice are equivalent.
+Circuits match uniquely.
+Property errors were found.
+The following cells had property errors: branchl.spice
