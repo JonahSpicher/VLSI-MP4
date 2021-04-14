@@ -72,60 +72,69 @@ C {madvlsi/vsource.sym} 1120 -510 0 0 {name=Vout
 value=1.8}
 C {devices/code.sym} 440 -590 0 0 {name=SPICE1 only_toplevel=false value="
 .control
-	set wr_vecnames
-	set wr_singlescale
-	let code = 0
-	while code < 128
-		if code eq 0
-			let nb0 = 0
-		else
-			let nb0 = (code % 2)*1.8
+	
+	let mc_runs = 10
+	let run = 1
+	dowhile run <= mc_runs
+		set wr_vecnames
+		set wr_singlescale
+		set appendwrite = FALSE 
+		let code = 0
+		while code < 128
+			if code eq 0
+				let nb0 = 0
+			else
+				let nb0 = (code % 2)*1.8
+			end
+			if floor(code / 2) eq 0
+				let nb1 = 0
+			else
+				let nb1 = (floor(code / 2) % 2)*1.8
+			end
+			if floor(code / 4) eq 0
+				let nb2 = 0
+			else
+				let nb2 = (floor(code / 4) % 2)*1.8
+			end
+			if floor(code / 8) eq 0
+				let nb3 = 0
+			else
+				let nb3 = (floor(code / 8) % 2)*1.8
+			end
+			if floor(code / 16) eq 0
+				let nb4 = 0
+			else
+				let nb4 = (floor(code / 16) % 2)*1.8
+			end
+			if floor(code / 32) eq 0
+				let nb5 = 0
+			else
+				let nb5 = (floor(code / 32) % 2)*1.8
+			end
+			if floor(code / 64) eq 0
+				let nb6 = 0
+			else
+				let nb6 = (floor(code / 64) % 2)*1.8
+			end
+			alter Vb0 $&nb0
+			alter Vb1 $&nb1
+			alter Vb2 $&nb2
+			alter Vb3 $&nb3
+			alter Vb4 $&nb4
+			alter Vb5 $&nb5
+			alter Vb6 $&nb6
+			save i(Viout) v(b0) v(b1) v(b2) v(b3) v(b4) v(b5) v(b6) 
+			op
+			wrdata ~/VLSI/VLSI-MP4/design-files/dacdataMC\{$&run\}.txt i(Viout)
+			if code eq 0
+				set appendwrite
+				set wr_vecnames = FALSE
+			end
+			let code = code + 1
+
 		end
-		if floor(code / 2) eq 0
-			let nb1 = 0
-		else
-			let nb1 = (floor(code / 2) % 2)*1.8
-		end
-		if floor(code / 4) eq 0
-			let nb2 = 0
-		else
-			let nb2 = (floor(code / 4) % 2)*1.8
-		end
-		if floor(code / 8) eq 0
-			let nb3 = 0
-		else
-			let nb3 = (floor(code / 8) % 2)*1.8
-		end
-		if floor(code / 16) eq 0
-			let nb4 = 0
-		else
-			let nb4 = (floor(code / 16) % 2)*1.8
-		end
-		if floor(code / 32) eq 0
-			let nb5 = 0
-		else
-			let nb5 = (floor(code / 32) % 2)*1.8
-		end
-		if floor(code / 64) eq 0
-			let nb6 = 0
-		else
-			let nb6 = (floor(code / 64) % 2)*1.8
-		end
-		alter Vb0 $&nb0
-		alter Vb1 $&nb1
-		alter Vb2 $&nb2
-		alter Vb3 $&nb3
-		alter Vb4 $&nb4
-		alter Vb5 $&nb5
-		alter Vb6 $&nb6
-		save i(Viout) v(b0) v(b1) v(b2) v(b3) v(b4) v(b5) v(b6) 
-		op
-		wrdata ~/VLSI/VLSI-MP4/design-files/dacdata.txt i(Viout)
-		if code eq 0
-			set appendwrite
-			set wr_vecnames = FALSE
-		end
-		let code = code + 1
+	reset 
+	let run = run + 1
 	end
 	quit
 .endc"}
@@ -133,6 +142,6 @@ C {madvlsi/tt_models.sym} 290 -590 0 0 {
 name=TT_MODELS
 only_toplevel=false
 value=".option wnflag=1
-.param MC_SWITCH=0
+.param MC_SWITCH=1
 .lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/sky130.lib.spice tt"
 }

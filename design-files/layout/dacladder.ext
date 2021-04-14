@@ -1,4 +1,4 @@
-timestamp 1617750207
+timestamp 1618369816
 version 8.3
 tech sky130A
 style ngspice()
@@ -15,21 +15,21 @@ node "branch1" 8803 4117.3 890 -3480 ndif 0 0 0 0 0 0 0 0 570000 12400 0 0 0 0 0
 node "branch0" 5275 2521.15 510 -3480 ndif 0 0 0 0 0 0 0 0 342000 7440 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 289600 8080 0 0 0 0 0 0 0 0 0 0 0 0
 node "VP" 12713 26211.4 230 -870 ndif 0 0 0 0 0 0 0 0 798000 17360 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7645800 66460 0 0 675200 18800 754700 10180 0 0 0 0 0 0 0 0 0 0
 substrate "VN" 0 0 -150 -870 ndif 0 0 0 0 0 0 0 0 661200 14840 456000 9920 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2065000 17740 0 0 1011200 17160 15183500 26520 0 0 0 0 0 0 0 0 0 0
-cap "VP" "branch0" 468.818
+cap "branch3" "VP" 2585.53
 cap "branch5" "branch6" 605.152
-cap "VP" "branch5" 2574.29
-cap "branch4" "branch5" 605.152
-cap "VP" "branch3" 2585.53
-cap "branch3" "branch4" 605.152
-cap "VP" "branch1" 2550.98
-cap "branch2" "branch3" 605.152
-cap "VP" "branch6" 2088.78
-cap "branch1" "branch2" 605.152
-cap "VP" "branch4" 2585.53
+cap "branch5" "branch4" 605.152
 cap "branch0" "branch1" 601.152
-cap "VP" "branch2" 2585.53
-cap "branch6" "Iout" 261.791
-cap "VP" "Iout" 29.3
+cap "VP" "branch1" 2550.98
+cap "branch0" "VP" 468.818
+cap "Iout" "VP" 29.3
+cap "branch2" "branch3" 605.152
+cap "branch3" "branch4" 605.152
+cap "branch2" "branch1" 605.152
+cap "branch5" "VP" 2574.29
+cap "branch2" "VP" 2585.53
+cap "branch6" "VP" 2088.78
+cap "Iout" "branch6" 261.791
+cap "VP" "branch4" 2585.53
 device msubckt sky130_fd_pr__nfet_01v8 4230 -3480 4231 -3479 l=280 w=1140 "VN" "VN" 560 0 "Iout" 1140 0 "VN" 1140 0
 device msubckt sky130_fd_pr__nfet_01v8 3850 -3480 3851 -3479 l=280 w=1140 "VN" "VP" 560 0 "branch6" 1140 0 "Iout" 1140 0
 device msubckt sky130_fd_pr__nfet_01v8 3310 -3480 3311 -3479 l=280 w=1140 "VN" "VP" 560 0 "branch5" 1140 0 "branch6" 1140 0

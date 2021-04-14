@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1617823527
+timestamp 1618368307
 << nwell >>
 rect -205 320 175 675
 rect 455 320 835 675
@@ -1970,7 +1970,9 @@ rect 3500 -45 3540 -40
 rect 4160 -45 4200 -40
 << labels >>
 rlabel metal1 -205 390 -205 390 7 VP
+port 1 w
 rlabel metal1 -205 110 -205 110 7 VN
+port 2 w
 rlabel locali -135 -105 -135 -105 5 b0in
 rlabel locali 525 -105 525 -105 5 b1in
 rlabel locali 1185 -105 1185 -105 5 b2in
@@ -1979,12 +1981,21 @@ rlabel locali 2505 -105 2505 -105 5 b4in
 rlabel locali 3165 -105 3165 -105 5 b5in
 rlabel locali 3825 -105 3825 -105 5 b6in
 rlabel locali -210 740 -210 740 7 Vbn
+port 4 w
 rlabel locali -210 780 -210 780 7 Vc
+port 3 w
 rlabel metal1 285 820 285 820 1 branch0
+port 5 n
 rlabel metal1 945 820 945 820 1 branch1
+port 6 n
 rlabel metal1 1605 820 1605 820 1 branch2
+port 7 n
 rlabel metal1 2265 820 2265 820 1 branch3
+port 8 n
 rlabel metal1 2925 820 2925 820 1 branch4
+port 9 n
 rlabel metal1 3585 820 3585 820 1 branch5
+port 10 n
 rlabel metal1 4245 820 4245 820 1 branch6
+port 11 n
 << end >>

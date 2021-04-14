@@ -552,5 +552,3 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {devices/code_shown.sym} 650 -1350 0 0 {name=SPICE only_toplevel=false value=".param llen=1.4
-.param lwid=5.7"}

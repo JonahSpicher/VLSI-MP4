@@ -433,7 +433,6 @@ C {devices/lab_pin.sym} 1720 -400 3 0 {name=l14 sig_type=std_logic lab=b3}
 C {devices/lab_pin.sym} 2040 -400 3 0 {name=l16 sig_type=std_logic lab=b4}
 C {devices/lab_pin.sym} 2360 -400 3 0 {name=l17 sig_type=std_logic lab=b5}
 C {devices/lab_pin.sym} 2680 -400 3 0 {name=l18 sig_type=std_logic lab=b6}
-C {/home/jonah/VLSI/MP4/inv.sym} 750 -160 0 0 {name=X2}
 C {madvlsi/nmos3.sym} 1040 -310 0 0 {name=M25
 L=\{tlen\}
 W=\{twid\}
@@ -450,7 +449,6 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {madvlsi/vdd.sym} 910 -360 0 0 {name=l20 lab=VDD}
-C {/home/jonah/VLSI/MP4/inv.sym} 1070 -160 0 0 {name=X3}
 C {madvlsi/nmos3.sym} 1360 -310 0 0 {name=M27
 L=\{tlen\}
 W=\{twid\}
@@ -467,7 +465,6 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {madvlsi/vdd.sym} 1230 -360 0 0 {name=l21 lab=VDD}
-C {/home/jonah/VLSI/MP4/inv.sym} 1410 -160 0 0 {name=X4}
 C {madvlsi/vdd.sym} 1570 -360 0 0 {name=l22 lab=VDD}
 C {madvlsi/nmos3.sym} 1700 -310 0 0 {name=M29
 L=\{tlen\}
@@ -484,7 +481,6 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {/home/jonah/VLSI/MP4/inv.sym} 1730 -160 0 0 {name=X5}
 C {madvlsi/vdd.sym} 1890 -360 0 0 {name=l23 lab=VDD}
 C {madvlsi/nmos3.sym} 2020 -310 0 0 {name=M31
 L=\{tlen\}
@@ -501,7 +497,6 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {/home/jonah/VLSI/MP4/inv.sym} 2050 -160 0 0 {name=X6}
 C {madvlsi/vdd.sym} 2210 -360 0 0 {name=l25 lab=VDD}
 C {madvlsi/nmos3.sym} 2340 -310 0 0 {name=M33
 L=\{tlen\}
@@ -518,7 +513,6 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {/home/jonah/VLSI/MP4/inv.sym} 2370 -160 0 0 {name=X7}
 C {madvlsi/vdd.sym} 2530 -360 0 0 {name=l26 lab=VDD}
 C {madvlsi/nmos3.sym} 2660 -310 0 0 {name=M35
 L=\{tlen\}
@@ -588,7 +582,6 @@ C {madvlsi/gnd.sym} 510 -160 0 0 {name=l36 lab=GND}
 C {madvlsi/vsource.sym} 510 -220 0 0 {name=Vb0
 value=0}
 C {devices/lab_pin.sym} 740 -400 3 0 {name=l37 sig_type=std_logic lab=b0}
-C {/home/jonah/VLSI/MP4/inv.sym} 430 -160 0 0 {name=X1}
 C {madvlsi/nmos3.sym} 540 -470 0 0 {name=M47
 L=\{tlen\}
 W=\{twid\}
@@ -1191,7 +1184,6 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {/home/jonah/VLSI/MP4/biasgen.sym} 740 -1030 0 0 {name=X8}
 C {madvlsi/resistor.sym} 910 -1190 0 0 {name=R1
 value=250k
 m=1}
@@ -1267,3 +1259,11 @@ spiceprefix=X
 }
 C {devices/lab_pin.sym} 80 -1220 0 0 {name=l47 sig_type=std_logic lab=Vbp_weak}
 C {devices/lab_pin.sym} 520 -620 0 0 {name=l1 sig_type=std_logic lab=Vbn}
+C {/home/jonah/VLSI/VLSI-MP4/prelim-files/biasgen.sym} 740 -1030 0 0 {name=X8}
+C {/home/jonah/VLSI/VLSI-MP4/prelim-files/inv.sym} 430 -160 0 0 {name=X1}
+C {/home/jonah/VLSI/VLSI-MP4/prelim-files/inv.sym} 750 -160 0 0 {name=X2}
+C {/home/jonah/VLSI/VLSI-MP4/prelim-files/inv.sym} 1070 -160 0 0 {name=X3}
+C {/home/jonah/VLSI/VLSI-MP4/prelim-files/inv.sym} 1410 -160 0 0 {name=X4}
+C {/home/jonah/VLSI/VLSI-MP4/prelim-files/inv.sym} 1730 -160 0 0 {name=X5}
+C {/home/jonah/VLSI/VLSI-MP4/prelim-files/inv.sym} 2050 -160 0 0 {name=X6}
+C {/home/jonah/VLSI/VLSI-MP4/prelim-files/inv.sym} 2370 -160 0 0 {name=X7}

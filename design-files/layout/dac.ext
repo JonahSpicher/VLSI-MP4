@@ -1,0 +1,182 @@
+timestamp 1618368410
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use biasgen biasgen_0 1 0 -3090 0 1 2280
+use branchl branchl_0 1 0 -4070 0 1 -2310
+use dacladder dacladder_0 1 0 -10 0 1 3310
+node "m1_4490_n2040#" 3 957.37 4490 -2040 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 179800 4100 0 0 0 0 0 0 0 0 0 0
+node "VN" 1 676 -4490 2200 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 220000 2600 0 0 0 0 0 0 0 0 0 0
+node "m1_n3870_3450#" 6 2666.27 -3870 3450 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 613800 11060 0 0 0 0 0 0 0 0 0 0
+node "VP" 1 99.24 -4490 3450 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7600 460 0 0 0 0 0 0 0 0 0 0
+node "li_n3850_n940#" 29 3594.1 -3850 -940 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35100 800 1307700 12780 0 0 0 0 0 0 0 0 0 0
+node "li_3790_n300#" 16 424.38 3790 -300 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7200 340 67600 2240 0 0 0 0 0 0 0 0 0 0
+node "li_3200_n300#" 15 390.98 3200 -300 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7200 340 32000 1340 0 0 0 0 0 0 0 0 0 0
+node "li_2660_n300#" 17 739.64 2660 -300 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7200 340 76400 2900 0 0 0 0 0 0 0 0 0 0
+node "li_2120_n300#" 19 1077.44 2120 -300 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7200 340 104100 4460 0 0 0 0 0 0 0 0 0 0
+node "li_1580_n300#" 22 1411.87 1580 -300 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7200 340 126600 6020 0 0 0 0 0 0 0 0 0 0
+node "li_1040_n300#" 24 1724.81 1040 -300 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7200 340 163000 7580 0 0 0 0 0 0 0 0 0 0
+node "li_500_n300#" 27 2062.61 500 -300 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7200 340 190700 9140 0 0 0 0 0 0 0 0 0 0
+node "li_n4490_n770#" 24 33.74 -4490 -770 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 800 120 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n1500_1610#" 432 1549.67 -1500 1610 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 171000 5060 0 0 0 0 0 0 0 0 0 0 0 0
+node "Rbias" 52 121.79 -4490 1580 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6800 420 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n1610_2120#" 115 2257.72 -1610 2120 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 722400 5780 0 0 0 0 0 0 0 0 0 0 0 0
+node "Iout" 30 236.472 4590 2340 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29700 760 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_3840_n880#" 169 1195.38 3840 -880 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 198000 2060 0 0 12000 460 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "VP" "VN" 57
+cap "li_500_n300#" "li_n1500_1610#" 63.28
+cap "li_500_n300#" "li_n3850_n940#" 3753
+cap "li_1040_n300#" "li_n1500_1610#" 63.28
+cap "li_1040_n300#" "li_n3850_n940#" 504
+cap "li_n3850_n940#" "li_n1610_2120#" 250.72
+cap "li_2660_n300#" "li_3200_n300#" 60
+cap "li_n3850_n940#" "li_n1500_1610#" 129.22
+cap "li_2660_n300#" "li_2120_n300#" 720
+cap "li_3790_n300#" "a_3840_n880#" 225.92
+cap "li_500_n300#" "li_2120_n300#" 39.7059
+cap "li_1040_n300#" "li_2120_n300#" 310.5
+cap "li_1040_n300#" "li_500_n300#" 4236
+cap "li_2120_n300#" "li_1580_n300#" 1894.22
+cap "li_3790_n300#" "m1_4490_n2040#" 302.143
+cap "li_500_n300#" "li_1580_n300#" 639.265
+cap "li_1040_n300#" "li_1580_n300#" 3063
+subcap "li_n3850_n940#" -4469.45
+subcap "li_n4490_n770#" -738.205
+subcap "m1_4490_n2040#" -549.925
+subcap "a_3840_n880#" -832.805
+cap "branchl_0/VP" "branchl_0/VN" 62.5
+cap "branchl_0/a_8660_720#" "branchl_0/VN" 236.77
+cap "branchl_0/a_7670_n90#" "branchl_0/VN" 94.4162
+cap "branchl_0/VN" "branchl_0/Vc" 226.36
+subcap "li_n3850_n940#" -1991.56
+cap "branchl_0/Vbn" "branchl_0/a_n270_650#" 1.5
+cap "branchl_0/Vbn" "branchl_0/Vc" 256.88
+cap "branchl_0/branch0" "branchl_0/Vc" 135
+cap "branchl_0/Vbn" "branchl_0/VP" 72.6429
+cap "branchl_0/branch0" "branchl_0/Vbn" 228.5
+cap "li_n3850_n940#" "branchl_0/branch1" 4.86486
+cap "branchl_0/Vc" "branchl_0/branch1" 135
+cap "li_n3850_n940#" "branchl_0/Vc" 23.8235
+cap "branchl_0/branch0" "branchl_0/branch1" 6
+cap "branchl_0/branch0" "branchl_0/Vc" 40.5
+cap "branchl_0/branch0" "branchl_0/VP" 23.1429
+cap "branchl_0/VP" "li_1040_n300#" 23.1429
+cap "li_1040_n300#" "branchl_0/branch2" 6
+cap "li_500_n300#" "branchl_0/branch2" 4.86486
+cap "branchl_0/branch2" "branchl_0/Vc" 135
+cap "li_1040_n300#" "branchl_0/Vc" 40.5
+cap "li_500_n300#" "branchl_0/Vc" 23.8235
+subcap "li_1040_n300#" -845.349
+subcap "li_500_n300#" -1423.57
+cap "li_1580_n300#" "branchl_0/Vc" 40.5
+cap "li_1580_n300#" "branchl_0/branch3" 6
+cap "dacladder_0/branch1" "dacladder_0/VN" 210.144
+cap "branchl_0/Vc" "dacladder_0/branch1" 23.8235
+cap "dacladder_0/branch1" "branchl_0/branch3" 4.86486
+cap "dacladder_0/branch0" "dacladder_0/VN" 172.125
+cap "dacladder_0/branch0" "branchl_0/Vc" 13.6058
+cap "li_1580_n300#" "branchl_0/VP" 23.1429
+cap "branchl_0/Vc" "branchl_0/branch3" 135
+cap "li_1580_n300#" "dacladder_0/VN" 86.5385
+subcap "li_2660_n300#" -251.132
+subcap "li_2120_n300#" -197.464
+subcap "li_1580_n300#" -803.504
+subcap "li_1040_n300#" -1635.04
+cap "branchl_0/branch4" "dacladder_0/branch3" 6
+cap "dacladder_0/VN" "dacladder_0/branch1" 15
+cap "dacladder_0/branch3" "branchl_0/VP" 23.1429
+cap "branchl_0/Vc" "dacladder_0/branch3" 40.5
+cap "dacladder_0/VN" "dacladder_0/branch3" 118.269
+cap "dacladder_0/VN" "dacladder_0/branch2" 121.731
+cap "branchl_0/Vc" "branchl_0/branch4" 135
+subcap "li_3790_n300#" -283.21
+subcap "li_2660_n300#" -292.85
+subcap "li_2120_n300#" -1618.19
+subcap "a_3840_n880#" -882.637
+cap "branchl_0/Vc" "branchl_0/VP" -4.52
+cap "dacladder_0/VN" "branchl_0/branch5" 157.5
+cap "branchl_0/b6in" "branchl_0/VP" 2.55556
+cap "branchl_0/a_7650_650#" "branchl_0/VP" 10.1974
+cap "dacladder_0/branch4" "dacladder_0/VN" 67.5
+cap "dacladder_0/branch4" "branchl_0/branch5" 2.13163e-14
+cap "dacladder_0/branch4" "branchl_0/VP" 12.8571
+cap "dacladder_0/branch6" "dacladder_0/VN" 90
+cap "branchl_0/Vc" "branchl_0/branch5" 16.3077
+subcap "li_3790_n300#" -127.37
+subcap "a_3840_n880#" -321.885
+cap "branchl_0/Vc" "branchl_0/VP" 39.2633
+cap "branchl_0/branch6" "dacladder_0/VN" 721.071
+cap "branchl_0/b6in" "branchl_0/VP" 12.7778
+cap "branchl_0/a_7650_650#" "branchl_0/VP" 10.1974
+cap "branchl_0/branch6" "branchl_0/VP" 14.1429
+cap "branchl_0/VP" "dacladder_0/VN" 13.75
+cap "branchl_0/Vc" "dacladder_0/VN" 211.32
+subcap "li_n1500_1610#" -1533.43
+cap "biasgen_0/a_n30_n580#" "biasgen_0/Vc" 5.35135
+cap "biasgen_0/VN" "biasgen_0/Vc" 10.4298
+cap "biasgen_0/a_570_n1030#" "biasgen_0/Vc" 1.43478
+cap "biasgen_0/VN" "li_n3850_n940#" 2.57143
+subcap "li_n1500_1610#" -581.817
+cap "li_n3850_n940#" "biasgen_0/VN" 85.9091
+cap "biasgen_0/Vc" "biasgen_0/a_n30_n580#" 5.35135
+cap "biasgen_0/Vc" "biasgen_0/a_570_n1030#" 37.7143
+cap "biasgen_0/Vc" "biasgen_0/VN" 36.8326
+subcap "VN" -334.33
+subcap "m1_n3870_3450#" -1384.44
+subcap "Rbias" -527.922
+cap "biasgen_0/VP" "biasgen_0/VN" -11.5541
+subcap "li_n1500_1610#" -2407.24
+subcap "li_n1610_2120#" -2467.64
+cap "biasgen_0/Vbn" "biasgen_0/VN" 2.57143
+cap "biasgen_0/Vbn" "biasgen_0/VP" 2.57143
+subcap "li_n1500_1610#" -790.887
+subcap "li_n1610_2120#" -883.337
+cap "biasgen_0/a_570_n1030#" "biasgen_0/VN" 5.21053
+cap "biasgen_0/a_50_260#" "biasgen_0/VN" 64.4811
+cap "biasgen_0/a_50_260#" "biasgen_0/Vbn" 21.7375
+cap "biasgen_0/VP" "biasgen_0/Vbn" 19.2857
+cap "dacladder_0/VP" "dacladder_0/VN" 109.038
+cap "biasgen_0/VN" "biasgen_0/Vbn" 117
+cap "dacladder_0/VN" "dacladder_0/VP" 357.351
+cap "dacladder_0/VN" "dacladder_0/Iout" 15.5294
+subcap "m1_n3870_3450#" -2102.28
+cap "biasgen_0/VP" "biasgen_0/VN" -12
+cap "biasgen_0/Vbn" "biasgen_0/VP" 67.5
+cap "biasgen_0/VP" "dacladder_0/VN" 50.1923
+cap "biasgen_0/VP" "biasgen_0/VP" 3.12
+cap "dacladder_0/VN" "m1_n3870_3450#" 130.5
+merge "dacladder_0/branch2" "branchl_0/branch2" -709.49 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1200 -140 -59200 -3040 0 0 0 0 0 0 0 0 0 0
+merge "branchl_0/branch2" "li_1580_n300#"
+merge "biasgen_0/VN" "dacladder_0/VN" -1701.33 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -209400 -3590 -85000 -2300 0 0 0 0 0 0 0 0 0 0
+merge "dacladder_0/VN" "branchl_0/VN"
+merge "branchl_0/VN" "VSUBS"
+merge "VSUBS" "m1_4490_n2040#"
+merge "m1_4490_n2040#" "li_n1610_2120#"
+merge "li_n1610_2120#" "VN"
+merge "dacladder_0/branch3" "branchl_0/branch3" -60.245 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7800 -140 -400 -100 0 0 0 0 0 0 0 0 0 0
+merge "branchl_0/branch3" "li_2120_n300#"
+merge "biasgen_0/Vbn" "branchl_0/Vbn" -2527.91 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -276400 -620 -480360 -8702 0 0 0 0 0 0 0 0 0 0
+merge "branchl_0/Vbn" "li_n3850_n940#"
+merge "dacladder_0/branch4" "branchl_0/branch4" -63.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4800 -140 -400 -100 0 0 0 0 0 0 0 0 0 0
+merge "branchl_0/branch4" "li_2660_n300#"
+merge "dacladder_0/branch5" "branchl_0/branch5" -68.57 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1200 -140 -400 -100 0 0 0 0 0 0 0 0 0 0
+merge "branchl_0/branch5" "li_3200_n300#"
+merge "branchl_0/branch6" "dacladder_0/branch6" -70.71 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1200 -140 -800 -120 0 0 0 0 0 0 0 0 0 0
+merge "dacladder_0/branch6" "li_3790_n300#"
+merge "biasgen_0/Vc" "branchl_0/Vc" -108.235 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13800 -440 0 0 0 0 0 0 0 0 0 0 0 0
+merge "branchl_0/Vc" "li_n4490_n770#"
+merge "li_n4490_n770#" "li_n1500_1610#"
+merge "dacladder_0/branch0" "branchl_0/branch0" -1314.82 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1200 -140 -110200 -5980 0 0 0 0 0 0 0 0 0 0
+merge "branchl_0/branch0" "li_500_n300#"
+merge "biasgen_0/VP" "dacladder_0/VP" -2350.31 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -606300 -9530 0 0 0 0 0 0 0 0 0 0
+merge "dacladder_0/VP" "branchl_0/VP"
+merge "branchl_0/VP" "a_3840_n880#"
+merge "a_3840_n880#" "m1_n3870_3450#"
+merge "m1_n3870_3450#" "VP"
+merge "dacladder_0/branch1" "branchl_0/branch1" -678.97 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1200 -140 -59200 -3040 0 0 0 0 0 0 0 0 0 0
+merge "branchl_0/branch1" "li_1040_n300#"
+merge "biasgen_0/Rbias" "Rbias" -43.73 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -11600 -120 0 0 0 0 0 0 0 0 0 0 0 0
+merge "dacladder_0/Iout" "Iout" -86.57 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4400 -300 0 0 0 0 0 0 0 0 0 0 0 0

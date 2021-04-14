@@ -24,21 +24,21 @@ N 1300 -420 1380 -420 { lab=#net8}
 N 1300 -450 1310 -450 { lab=#net9}
 N 1310 -450 1310 -440 { lab=#net9}
 N 1310 -440 1380 -440 { lab=#net9}
-N 1360 -600 1380 -600 { lab=VP}
-N 1360 -570 1380 -570 { lab=VN}
-N 1370 -380 1380 -380 { lab=VN}
-N 1360 -400 1380 -400 { lab=VP}
-N 1180 -380 1370 -380 { lab=VN}
-N 1360 -480 1360 -400 { lab=VP}
-N 1180 -480 1360 -480 { lab=VP}
-N 1160 -480 1180 -480 { lab=VP}
-N 1220 -600 1360 -600 { lab=VP}
-N 1220 -600 1220 -480 { lab=VP}
-N 1130 -380 1180 -380 { lab=VN}
-N 1340 -570 1360 -570 { lab=VN}
-N 1340 -570 1340 -380 { lab=VN}
-C {devices/iopin.sym} 1160 -480 2 0 {name=p1 lab=VP}
-C {devices/iopin.sym} 1130 -380 2 0 {name=p2 lab=VN}
+N 1360 -600 1380 -600 { lab=VDD}
+N 1360 -570 1380 -570 { lab=GND}
+N 1370 -380 1380 -380 { lab=GND}
+N 1360 -400 1380 -400 { lab=VDD}
+N 1180 -380 1370 -380 { lab=GND}
+N 1360 -480 1360 -400 { lab=VDD}
+N 1180 -480 1360 -480 { lab=VDD}
+N 1160 -480 1180 -480 { lab=VDD}
+N 1220 -600 1360 -600 { lab=VDD}
+N 1220 -600 1220 -480 { lab=VDD}
+N 1130 -380 1180 -380 { lab=GND}
+N 1340 -570 1360 -570 { lab=GND}
+N 1340 -570 1340 -380 { lab=GND}
+N 1150 -380 1150 -360 { lab=GND}
+N 1180 -510 1180 -480 { lab=VDD}
 C {devices/iopin.sym} 1130 -400 2 0 {name=p3 lab=Rbias}
 C {devices/iopin.sym} 1580 -640 3 0 {name=p4 lab=Iout}
 C {devices/ipin.sym} 1420 -320 3 0 {name=p5 lab=b0}
@@ -51,3 +51,5 @@ C {devices/ipin.sym} 1600 -320 3 0 {name=p10 lab=b6}
 C {/home/jonah/VLSI/VLSI-MP4/design-files/dacladder.sym} 1000 -320 0 0 {name=X3}
 C {/home/jonah/VLSI/VLSI-MP4/design-files/opt/biasgen_opt.sym} 510 -260 0 0 {name=X2}
 C {/home/jonah/VLSI/VLSI-MP4/design-files/branchlogic.sym} 1200 -170 0 0 {name=X4}
+C {madvlsi/gnd.sym} 1150 -360 0 0 {name=l1 lab=GND}
+C {madvlsi/vdd.sym} 1180 -510 0 0 {name=l2 lab=VDD}

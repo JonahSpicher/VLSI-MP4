@@ -1,7 +1,7 @@
-* SPICE3 file created from dacladder.ext - technology: sky130A
+* SPICE3 file created from /home/jonah/VLSI/VLSI-MP4/design-files/layout/dacladder.ext - technology: sky130A
 
 
-* Top level circuit dacladder
+* Top level circuit /home/jonah/VLSI/VLSI-MP4/design-files/layout/dacladder
 
 X0 branch2 VP branch1 VN sky130_fd_pr__nfet_01v8 ad=1.425e+13p pd=6.2e+07u as=1.425e+13p ps=6.2e+07u w=5.7e+06u l=1.4e+06u
 X1 VP VN VN VN sky130_fd_pr__nfet_01v8 ad=1.995e+13p pd=8.68e+07u as=1.653e+13p ps=7.42e+07u w=5.7e+06u l=1.4e+06u
