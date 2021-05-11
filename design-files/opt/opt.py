@@ -2,15 +2,7 @@ import numpy as np
 import scipy.optimize, os, alter_netlist
 import matplotlib.pyplot as plt
 
-"""
-    .param vgval=1.8
-    .param tlen=0.5
-    .param twid=6
-    .param ladderlen=1
-    .param ladderwid=3.2
-    .param isourcelen=15.5
-    .param isourcewid=4
-"""
+
 
 def error(data, MC, fixed):
     max_val = data[-1]

@@ -63,7 +63,7 @@ C {devices/lab_pin.sym} 670 -500 0 0 {name=l23 sig_type=std_logic lab=b6}
 C {madvlsi/vdd.sym} 790 -660 0 0 {name=l24 lab=VDD}
 C {madvlsi/gnd.sym} 790 -460 0 0 {name=l25 lab=GND}
 C {madvlsi/resistor.sym} 610 -470 0 0 {name=R1
-value=250k
+value=\{Rbias*1000\}
 m=1}
 C {madvlsi/gnd.sym} 610 -420 0 0 {name=l26 lab=GND}
 C {madvlsi/ammeter1.sym} 1070 -560 3 0 {name=Viout}
@@ -71,12 +71,6 @@ C {madvlsi/gnd.sym} 1120 -480 0 0 {name=l27 lab=GND}
 C {madvlsi/vsource.sym} 1120 -510 0 0 {name=Vout
 value=1.8}
 C {devices/code.sym} 440 -590 0 0 {name=SPICE1 only_toplevel=false value="
-.param llen=1.4
-.param lwid=5.7
-.param blen=0.5
-.param bwid=1.4
-.param brlen=0.3
-.param brwid=3.15.param 
 .control
 	set wr_vecnames
 	set wr_singlescale
@@ -126,7 +120,7 @@ C {devices/code.sym} 440 -590 0 0 {name=SPICE1 only_toplevel=false value="
 		alter Vb6 $&nb6
 		save i(Viout) v(b0) v(b1) v(b2) v(b3) v(b4) v(b5) v(b6) 
 		op
-		wrdata ~/VLSI/VLSI-MP4/design-files/dacdata.txt i(Viout)
+		wrdata ~/VLSI/VLSI-MP4/design-files/improved/dacdata.txt i(Viout)
 		if code eq 0
 			set appendwrite
 			set wr_vecnames = FALSE
@@ -142,3 +136,10 @@ value=".option wnflag=1
 .param MC_SWITCH=0
 .lib ~/skywater/skywater-pdk/libraries/sky130_fd_pr_ngspice/latest/models/sky130.lib.spice tt"
 }
+C {devices/code_shown.sym} 70 -560 0 0 {name=SPICE only_toplevel=false value=".param brlen=0.3
+.param brwid=3.15
+.param blen=0.5
+.param bwid=1.4
+.param llen=1.4
+.param lwid=5.7
+.param Rbias=250"}

@@ -14,13 +14,13 @@ X1 VDD b0 b1 b2 b3 b4 b5 b6 GND net2 net1 dacfull_opt
 **** begin user architecture code
 
 
-.param llen=1.742175355856765
-.param lwid=0.4876747946915376
-.param blen=2.948454043974432
-.param bwid=1.071715578573996
-.param brlen=3.340927994889843
-.param brwid=16.744857889409165
-.param Rbias=4.119246833458886
+.param llen=2.1131000232493578
+.param lwid=0.487997437158356
+.param blen=0.16925751599224573
+.param bwid=1.2007978416938037
+.param brlen=4.263435242697646
+.param brwid=20.199572298759293
+.param Rbias=4.248192260389352
 .control
 	set wr_vecnames
 	set wr_singlescale

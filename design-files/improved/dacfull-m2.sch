@@ -48,6 +48,6 @@ C {devices/ipin.sym} 1510 -320 3 0 {name=p8 lab=b3}
 C {devices/ipin.sym} 1540 -320 3 0 {name=p9 lab=b4}
 C {devices/ipin.sym} 1570 -320 3 0 {name=p11 lab=b5}
 C {devices/ipin.sym} 1600 -320 3 0 {name=p10 lab=b6}
-C {/home/jonah/VLSI/VLSI-MP4/design-files/improved/biasgen-m2.sym} 510 -260 0 0 {name=X1}
-C {/home/jonah/VLSI/VLSI-MP4/design-files/improved/branchlogic-m2.sym} 1200 -170 0 0 {name=X2}
-C {/home/jonah/VLSI/VLSI-MP4/design-files/improved/dacladder-m2.sym} 1000 -320 0 0 {name=X3}
+C {/home/jonah/VLSI/VLSI-MP4/design-files/dacladder.sym} 1000 -320 0 0 {name=X3}
+C {/home/jonah/VLSI/VLSI-MP4/design-files/opt/biasgen_opt.sym} 510 -260 0 0 {name=X2}
+C {/home/jonah/VLSI/VLSI-MP4/design-files/branchlogic.sym} 1200 -170 0 0 {name=X4}

@@ -45,6 +45,11 @@ def alter_params(circuit_parameters, mode="single"):
     .param brlen=0.3
     .param brwid=3.15
     .param Rbias=250
+
+Final run:
+    [ 2.10943923  0.48322549  0.16927035  1.20588377  4.22136514 20.57419069
+  4.23291603]
+
     """
     if mode=="single":
         fname = "dac_harness_opt.spice"

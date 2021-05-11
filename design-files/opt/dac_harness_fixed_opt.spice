@@ -14,13 +14,13 @@ Vout net3 GND 1.8
 **** begin user architecture code
 
 
-.param llen=1.742175355856765
-.param lwid=0.4876747946915376
-.param blen=2.948454043974432
-.param bwid=1.071715578573996
-.param brlen=3.340927994889843
-.param brwid=16.744857889409165
-.param Rbias=4.119246833458886
+.param llen=2.111177014479537
+.param lwid=0.48574301322273356
+.param blen=0.1693954424702104
+.param bwid=1.2031310089904301
+.param brlen=4.243535577472102
+.param brwid=20.37706697459467
+.param Rbias=4.241016659732464
 .control
 set wr_vecnames
 set wr_singlescale
